@@ -1,0 +1,41 @@
+.container{
+    margin-top: 50px;
+    
+}
+.colorbg{
+    background-color:rgb(205, 165, 243);
+}
+div[class^="col-"]{
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.bordered{
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+p{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 35px;
+    background-color: rgb(205, 165, 243);
+}
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+}
