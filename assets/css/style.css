@@ -1,16 +1,34 @@
 .container {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .container .row.no-gutters {
+    margin-right: 0;
+    margin-left: 0; }
+    .container .row.no-gutters > [class^="col-"], .container .row.no-gutters > [class*=" col-"] {
+      padding-right: 0;
+      padding-left: 0; }
+  .container .row div[class^="col-"] {
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; }
+    .container .row div[class^="col-"] p {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      line-height: 35px;
+      background-color: #cda5f3; }
+
+.container.exo5 .row div[class^="col-"] p {
+  background-color: #d8d8d8; }
 
 .colorbg {
   background-color: #cda5f3; }
 
-div[class^="col-"] {
-  text-align: center;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px; }
+.colorbg5 {
+  background-color: #d8d8d8; }
 
 .bordered {
   border: 2px solid black;
@@ -19,19 +37,5 @@ div[class^="col-"] {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px; }
-
-p {
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  line-height: 35px;
-  background-color: #cda5f3; }
-
-.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0; }
-  .row.no-gutters > [class^="col-"], .row.no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0; }
 
 /*# sourceMappingURL=style.css.map */
